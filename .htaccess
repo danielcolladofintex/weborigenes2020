@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.origeneslodge.com [NC]
+RewriteRule ^(.*)$ https://origeneslodge.com/$1 [L,R=301]
